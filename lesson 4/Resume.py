@@ -1,11 +1,20 @@
 from unicodedata import name
 
-name = input("Ваше ім'я")
+names = input("Ваше ім'я")
 
 lastname = input("Ваша фамілія")
 
 age = input("Ваш вік")
 
+country = input("Ваша країна")
 
-Resume = "Ваше резюме," + name + lastname + age
+city = input("Ваш город")
+
+ilnesses = input("У вас э хвороби")
+
+height = input("Ваш зріст")
+
+settlement = input("Ваш дім")
+
+Resume = "Ваше резюме," + names + lastname + age + country + city + ilnesses + height + settlement
 print(Resume)
